@@ -1,0 +1,275 @@
+*{box-sizing: border-box; margin: 0;}
+body, main, footer, header{
+    width: 100%;
+}
+
+
+nav{
+    height: 50px;
+    background-color: black;
+}
+nav ul {
+
+    width: auto;
+    height: 200px;
+    position: absolute;
+    right: 15px;
+    line-height: 40px;
+
+  
+    
+    
+}
+
+nav ul li {
+   display: inline-block;
+   height: 50px;
+   padding-top: 5px;
+   margin-left: 10px;
+   width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+   text-align: center;
+   list-style: none;
+   color: white
+   
+    
+}
+
+nav ul li:hover{background-color: #0d4714;
+	
+
+}
+
+
+
+
+nav h1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+
+
+header{
+    height: 550px;
+    background-image: url(../imagenes/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center;
+
+}
+
+#head{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 220px;
+
+    text-align: center;
+    padding-top: 50px;
+    font-size: 25px;
+   
+
+    background-color:rgba(0, 0, 0, 0.3);
+
+}
+
+
+main{
+    height: auto;
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    align-content: space-evenly;
+
+}
+
+#one, #two, #three, #four{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+    margin-left: 20px;
+   text-align: center;
+   cursor: pointer;
+   background-color: #cccaca;
+   
+}
+
+#four{
+    margin-right: 20px;
+}
+
+
+
+main img{
+    width: 410px;
+    height: auto;
+}
+
+
+/*#one,  #two, #three, #four :hover{
+    width: 110%;
+    opacity: 0.95;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.9);
+    
+}*/
+
+#one:hover, #two:hover, #three:hover, #four:hover{
+    transform: scale(1.03);
+    box-shadow: 0 7px 10px #a1a1a1;
+    cursor:pointer;
+}
+
+body{
+    position: relative;
+}
+
+#under hr{
+   
+    width: 100%;
+   margin-top: 50px;
+}
+
+#conte{
+    display: flex;
+    justify-content: space-around;
+}
+#under{
+    width: 50%;
+    
+
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+#under h2{
+    padding-top: 10px;
+}
+
+#under p{
+    margin-top: 45px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#video{
+    margin-top: 50px;
+}
+
+
+#mapa address{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+#mapa iframe{
+    margin-left: 10px;
+}
+
+
+
+ #mapa hr{
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 100px;
+    border: solid 1px;
+
+    
+    
+}
+
+#flex{
+    display: flex;
+    justify-content: space-around;
+}
+form input{
+    display: block;
+    margin-top: 20px;
+    width: 700px;
+    height: 50px;
+    border: 1px solid;
+}
+
+form button{
+    display: block;
+    background-color: darkcyan;
+    width: 700px;
+    height: 30px;
+    border: 0.3px solid;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+textarea{
+    margin-top: 20px;
+}
+
+input:hover{
+    background-color: rgba(0, 0,0,0.1);
+}
+textarea:hover{
+    background-color: rgba(0, 0,0,0.1);
+}
+
+ button:hover
+{
+    background-color: rgba(0, 139, 139,0.8);
+}
+
+#icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 200px;
+    line-height: 35px;
+    text-decoration: underline;
+
+    
+}
+
+
+form h2{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+background-color: black;
+    margin-top: 20px;
+}
+
+
+.logo{
+  display: inline-block;
+  padding-left: 15px;
+  margin-top: 40px;
+  
+    
+}
+
+#movlog{
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer h4{
+position: absolute;
+bottom: 3px;
+left: 830px;
+}
+
